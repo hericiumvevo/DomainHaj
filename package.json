@@ -1,0 +1,30 @@
+{
+  "name": "numberhaj",
+  "version": "0.0.0",
+  "description": "Based on the concept of [this bot](https://countingbot.com/), DeathCount (also known as  **numberhaj**) is a Discord counting bot that punishes players",
+  "main": "index.ts",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "start": "tsx src/index.ts",
+    "lint": "npx eslint src/",
+    "format": "npx prettier --write src/"
+  },
+  "author": "Blahaj Team",
+  "license": "ISC",
+  "dependencies": {
+    "consola": "^3.2.3",
+    "directory-import": "^3.3.1",
+    "discord.js": "^14.15.3",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.6.0",
+    "eslint": "^8.57.0",
+    "globals": "^15.8.0",
+    "prettier": "3.3.2",
+    "tsup": "^8.1.0",
+    "tsx": "^4.16.2",
+    "typescript": "^5.5.3",
+    "typescript-eslint": "^7.15.0"
+  }
+}
